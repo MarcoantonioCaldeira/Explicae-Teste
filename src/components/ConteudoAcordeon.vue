@@ -15,13 +15,12 @@
             {{ opcao }}
           </v-btn>
         </div>
-        <v-card>
-          <v-card-text>
+        <v-card variant="tonal">
             <template v-if="conteudo.abaAtiva === 'Aulas'">
-              <div class="text-uppercase font-weight-bold mb-4">
+              <div class="text-uppercase font-weight-bold mb-2">
                 TEORIA + QUESTÕES ORIENTADAS
               </div>
-              <v-checkbox
+              <v-checkbox density="compact"
                 v-for="(opcaoCheckbox, checkboxIndex) in conteudo.opcoesCheckbox"
                 :key="checkboxIndex"
                 :label="opcaoCheckbox.nome"
@@ -36,7 +35,6 @@
             <template v-else-if="conteudo.abaAtiva === 'Materiais'">
               <span class="texto-negrito">Conteúdo dos Materiais: {{ conteudo.materiais }}</span>
             </template>
-          </v-card-text>
         </v-card>
       </v-expansion-panel-text>
     </v-expansion-panel>
@@ -58,4 +56,3 @@
   const setAbaAtiva = (payload) => store.dispatch('setAbaAtiva', payload);
   const toggleCheckbox = (payload) => store.dispatch('toggleCheckbox', payload);
   </script>
-  

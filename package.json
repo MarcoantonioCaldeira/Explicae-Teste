@@ -21,6 +21,8 @@
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "@vue/eslint-config-typescript": "^9.1.0",
+    "sass": "^1.85.1",
+    "sass-loader": "^16.0.5",
     "typescript": "^5.8.2"
   },
   "eslintConfig": {

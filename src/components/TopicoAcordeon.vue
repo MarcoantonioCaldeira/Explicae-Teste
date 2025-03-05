@@ -16,6 +16,7 @@
             :conteudo="conteudo"
             :categoriaIndex="categoriaIndex"
             :topicoIndex="topicoIndex"
+            :conteudoIndex="conteudoIndex"
           />
         </v-expansion-panels>
       </v-expansion-panel-text>
@@ -29,6 +30,6 @@
   defineProps({
     topico: Object,
     categoriaIndex: Number,
+    topicoIndex: Number,
   });
   </script>
-  

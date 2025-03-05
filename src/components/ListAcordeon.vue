@@ -19,8 +19,6 @@ const store = useStore();
 const categorias = store.getters.categorias;
 </script>
 
-<style scoped>
-.aba {
-  min-height: 150px;
-}
+<style src="../assets/estilo/estilo.css">
+
 </style>

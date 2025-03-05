@@ -5,19 +5,8 @@
   </v-container>
 </template>
 
-<style scoped>
+<style  src="../assets/estilo/estilo.css">
 
-h3{
-  margin-left: 2.4vw;
-}
-
-.fill-screen {
-  width: 100vw; 
-  min-height: 100vh;
-  background-color: #eff0f0;
-  flex-direction: column;
-  display: flex;
-}
 </style>
 
   

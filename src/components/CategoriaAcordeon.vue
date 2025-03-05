@@ -15,13 +15,14 @@
             :key="topicoIndex"
             :topico="topico"
             :categoriaIndex="categoriaIndex"
+            :topicoIndex="topicoIndex"
           />
         </v-expansion-panels>
       </v-expansion-panel-text>
     </v-expansion-panel>
-</template>
+  </template>
   
-<script setup>
+  <script setup>
   import TopicoAcordeon from './TopicoAcordeon.vue';
   import { defineProps } from 'vue';
   
@@ -29,16 +30,9 @@
     categoria: Object,
     categoriaIndex: Number,
   });
+  </script>
   
-</script>
-  
-<style scoped>
-  .texto-negrito {
-    font-weight: bold;
-  }
-  
-  .titulo:hover {
-    background-color: #eccbfc;
-  }
-</style>
+  <style src="../assets/estilo/estilo.css">
+
+  </style>
   
