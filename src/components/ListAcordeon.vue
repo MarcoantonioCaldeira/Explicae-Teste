@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-expansion-panels multiple class="aba" variant="accordion">
+    <v-expansion-panels multiple class="texto-negrito titulo" variant="accordion">
       <CategoriaAcordeon
         v-for="(categoria, categoriaIndex) in categorias"
         :key="categoriaIndex"
@@ -19,6 +19,6 @@ const store = useStore();
 const categorias = store.getters.categorias;
 </script>
 
-<style src="../assets/estilo/estilo.css">
+<style  src="../assets/estilo/estilo.css">
 
 </style>

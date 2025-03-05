@@ -1,5 +1,6 @@
 <template>
   <v-container fluid class="fill-screen">
+    <img class="logo" src="../assets/logo/explicae.png" >
     <h3>Cadernos / Língua Portuguesa</h3>
     <ListAcordeon />
   </v-container>
