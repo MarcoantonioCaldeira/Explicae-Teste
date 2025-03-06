@@ -1,24 +1,20 @@
-# projeto
+# Teste Tecnico Explicaê
 
-## Project setup
-```
-npm install
-```
+## Visão Geral da aplicação
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Tecnologias Usadas
+  + FrontEnd
+    + VueJS
+    + CSS
+    + Vuetify
+    + Vuex
+    + TypeScript
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Inicializando o FrontEnd
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
++ Criação do container
+
+      docker compose up
+
+  > Com isso o FrontEnd já estaram funcionando
