@@ -17,4 +17,5 @@
 
       docker compose up
 
-  > Com isso o FrontEnd já estaram funcionando
+  > Com isso o FrontEnd já estaram funcionando. Mas se for preferivel isntale todas as dependencias e rode a aplicação localmente
+
